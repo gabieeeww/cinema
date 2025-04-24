@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0a0a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: #1c1c1c;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #2a2a2a;
+  }
+  
+  .card:active {
+    transform: scale(0.98);
+  }
+  
+  h1::before {
+    content: "🧡 ";
+  }
+  
+  h1 {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 15px;
+    font-style: italic;
+  }
+  
+  p::first-letter {
+    font-size: 200%;
+    color: #ff6600;
+  }
+  
+  p::selection,
+  h1::selection,
+  h2::selection {
+    background: #ff6600;
+    color: #fff;
+  }
+  
+  
